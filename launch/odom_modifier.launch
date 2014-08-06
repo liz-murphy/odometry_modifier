@@ -1,0 +1,11 @@
+<!--
+  Run odometry modifier with set values of vl, vr and b 
+-->
+
+<launch>
+  <node pkg="odometry_modifier" type="odometry_modifier_node" name="calibrate" output="screen">
+    <param name="vl" value="0.976114"/>
+    <param name="vr" value="0.987224"/>
+    <param name="b" value="0.987067"/>
+  </node>
+</launch>
