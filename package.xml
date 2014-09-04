@@ -40,20 +40,17 @@
   <!-- Use test_depend for packages you need only for testing: -->
   <!--   <test_depend>gtest</test_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>roscpp
-    rosconsole
-    nav_msgs
-    geometry_msgs
-    tf
-  </build_depend>
-  <run_depend>roscpp
-    rosconsole
-    nav_msgs
-    geometry_msgs
-    tf
-  </run_depend>
-
-
+  <build_depend> roscpp </build_depend>
+  <build_depend> rosconsole </build_depend>
+  <build_depend> nav_msgs </build_depend>
+  <build_depend> geometry_msgs </build_depend>
+  <build_depend> tf </build_depend>
+  <run_depend> roscpp </run_depend>
+  <run_depend> rosconsole </run_depend>
+  <run_depend> nav_msgs </run_depend>
+  <run_depend> geometry_msgs </run_depend>
+  <run_depend> tf </run_depend>
+  
   <!-- The export tag contains other, unspecified, tags -->
   <export>
     <!-- You can specify that this package is a metapackage here: -->
